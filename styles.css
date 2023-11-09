@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: beige;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mug{
+height: 420px;
+width: 350px;
+border-top-left-radius: 1.5rem;
+border-bottom-left-radius: 1.5rem;
+}
+.box2{
+height: 420px;
+width: 350px;
+background-color: white;
+border-top-right-radius: 1.5rem;
+border-bottom-right-radius: 1.5rem;
+padding: 1.5rem;
+font-size: 1.2rem;
+}
+.para1{
+color: gray;
+padding: 0.5rem;
+}
+.rupee{
+    font-size: 2rem;
+    color: green;
+    font-weight: 1000;
+}
+.btn{
+    background-color: green;
+    height: 3rem;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 0.7rem;
+    margin-top: 2rem;
+}
